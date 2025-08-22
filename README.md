@@ -103,23 +103,19 @@ form.addEventListener('submit', (e) => {
 });
 
 // 7️⃣ Show error message
-function showError(input, message){
-  const error = input.nextElementSibling;
-  error.textContent = message;
-  error.classList.remove('success');
-  error.classList.add('error');
-  error.style.display = 'block';
-  input.style.borderColor = "red";
-}
+function showError(input ,message){
+    const error = input.nextElementSibling;
+    error.textContent = message
+    error.classList.add('error')
+    error.style.display = 'block'
+
 
 // 8️⃣ Show success message
-function showSuccess(input, message){
-  const error = input.nextElementSibling;
-  error.textContent = message;
-  error.classList.remove('error');
-  error.classList.add('success');
-  error.style.display = 'block';
-  input.style.borderColor = "green";
+function showSuccess(input ,message){
+    const error = input.nextElementSibling;
+    error.textContent = message
+    error.classList.add('success')
+    error.style.display = 'block'
 }
 
 // 9️⃣ Clear all messages
