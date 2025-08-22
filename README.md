@@ -138,10 +138,10 @@ function validateEmail(email){
 ```
 
 
-🔹 How It Works
-1- Realtime validation: Each input field listens for input events and validates immediately.
-2- Error/Success feedback: Displays messages under each field with colors.
-3- Submit check: Form checks all fields one last time before alerting success.
-4- Reset form: Clears all fields and messages after successful submission.
+## 🔹 How It Works
+- Realtime validation: Each input field listens for input events and validates immediately.
+- Error/Success feedback: Displays messages under each field with colors.
+- Submit check: Form checks all fields one last time before alerting success.
+- Reset form: Clears all fields and messages after successful submission.
 
 **Made with ❤️ using HTML, CSS, and JavaScript**
